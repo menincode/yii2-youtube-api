@@ -1,5 +1,5 @@
 <?php
-namespace sr1871\youtubeApi\components;
+namespace menincode\youtubeApi\components;
 
 use Yii;
 use yii\base\Component;

@@ -23,7 +23,7 @@ Also can do partener actions like
 ## Installation
 The preferred way to install this extension is through composer.
 
-```$ composer require sr1871/yii2-youtube-api```
+```$ composer require menincode/yii2-youtube-api```
 
 ## Usage
 Add it to your components 
@@ -33,7 +33,7 @@ Add it to your components
 'components' => [
     ...
     'youtube' => [
-        'class' => \sr1871\youtubeApi\components\YoutubeApi::className(),
+        'class' => \menincode\youtubeApi\components\YoutubeApi::className(),
         'clientId' => '{your Oauth Client Id, you can get it from google console}',
         'clientSecret' => '{your Oauth Client Secret, you can get it from google console}',
         'setAccessTokenFunction' => function($client){ file_put_contents('pathFile.txt'json_encode($client->getAccessToken());}, //anonymous function where save the accesToken

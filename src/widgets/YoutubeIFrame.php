@@ -1,5 +1,5 @@
 <?php
-namespace sr1871\youtubeApi\widgets;
+namespace menincode\youtubeApi\widgets;
 
 use Yii;
 use yii\base\Widget;

@@ -1,13 +1,13 @@
 {
-    "name": "sr1871/yii2-youtube-api",
+    "name": "menincode/yii2-youtube-api",
     "description": "Component for use youtube api with Oauth in yii2",
     "type": "yii2-extension",
     "keywords": ["yii2","extension", "youtube", "api", "video"],
     "license": "GPL-3.0+",
     "authors": [
         {
-            "name": "sergio alvarado",
-            "email": "sergioal18v@gmail.com"
+            "name": "menincode",
+            "email": "menincode@gmail.com"
         }
     ],
     "require": {

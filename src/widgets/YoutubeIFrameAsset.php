@@ -1,12 +1,12 @@
 <?php
-namespace sr1871\youtubeApi\widgets;
+namespace menincode\youtubeApi\widgets;
 
 use yii\web\AssetBundle;
 
 class YoutubeIFrameAsset extends AssetBundle
 {
     public $basePath = '@webroot';
-    public $baseUrl = '@vendor/sr1871/youtubeApi/widgets/';
+    public $baseUrl = '@vendor/menincode/youtubeApi/widgets/';
     public $css = [
     ];
     public $js = [
