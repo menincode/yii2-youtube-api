@@ -109,6 +109,16 @@ class GoogleApi extends Component {
     }
   }
 
+  public function setClientId($clientId){
+    $this->clientId = $clientId;
+    $this->client->setClientId($this->clientId);
+  }
+
+  public function setClientSecret($clientSecret){
+    $this->clientId = $clientSecret;
+    $this->client->setClientSecret($this->clientSecret);
+  }
+
   /**
    * Assign permissions to application from google account manually
    * 
