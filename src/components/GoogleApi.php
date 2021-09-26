@@ -115,7 +115,7 @@ class GoogleApi extends Component {
   }
 
   public function setClientSecret($clientSecret){
-    $this->clientId = $clientSecret;
+    $this->clientSecret = $clientSecret;
     $this->client->setClientSecret($this->clientSecret);
   }
 
